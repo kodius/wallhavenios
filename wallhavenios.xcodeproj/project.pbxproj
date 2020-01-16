@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5367799C44CD8E1E27EB2948 /* Pods_wallhavenios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A850E3A2938778E4F8E6601 /* Pods_wallhavenios.framework */; };
 		94A6983C23D09DFD005764EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6983B23D09DFD005764EE /* AppDelegate.swift */; };
 		94A6983E23D09DFD005764EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6983D23D09DFD005764EE /* SceneDelegate.swift */; };
 		94A6984023D09DFD005764EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6983F23D09DFD005764EE /* ViewController.swift */; };
 		94A6984323D09DFD005764EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A6984123D09DFD005764EE /* Main.storyboard */; };
 		94A6984523D09DFD005764EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A6984423D09DFD005764EE /* Assets.xcassets */; };
 		94A6984823D09DFD005764EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A6984623D09DFD005764EE /* LaunchScreen.storyboard */; };
+		94A6985023D0A85C005764EE /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6984F23D0A85C005764EE /* APIRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A850E3A2938778E4F8E6601 /* Pods_wallhavenios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wallhavenios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A1F2E2C9A6FFEDA4D60277 /* Pods-wallhavenios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallhavenios.release.xcconfig"; path = "Target Support Files/Pods-wallhavenios/Pods-wallhavenios.release.xcconfig"; sourceTree = "<group>"; };
+		8071627855666A4DFC415B2B /* Pods-wallhavenios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallhavenios.debug.xcconfig"; path = "Target Support Files/Pods-wallhavenios/Pods-wallhavenios.debug.xcconfig"; sourceTree = "<group>"; };
 		94A6983823D09DFD005764EE /* wallhavenios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wallhavenios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A6983B23D09DFD005764EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A6983D23D09DFD005764EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		94A6984423D09DFD005764EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A6984723D09DFD005764EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A6984923D09DFD005764EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A6984F23D0A85C005764EE /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5367799C44CD8E1E27EB2948 /* Pods_wallhavenios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66A453157B13A8359B400709 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8071627855666A4DFC415B2B /* Pods-wallhavenios.debug.xcconfig */,
+				14A1F2E2C9A6FFEDA4D60277 /* Pods-wallhavenios.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		94A6982F23D09DFD005764EE = {
 			isa = PBXGroup;
 			children = (
 				94A6983A23D09DFD005764EE /* wallhavenios */,
 				94A6983923D09DFD005764EE /* Products */,
+				66A453157B13A8359B400709 /* Pods */,
+				B210F7D8A5A21D6CACA33E65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +82,17 @@
 				94A6984423D09DFD005764EE /* Assets.xcassets */,
 				94A6984623D09DFD005764EE /* LaunchScreen.storyboard */,
 				94A6984923D09DFD005764EE /* Info.plist */,
+				94A6984F23D0A85C005764EE /* APIRequest.swift */,
 			);
 			path = wallhavenios;
+			sourceTree = "<group>";
+		};
+		B210F7D8A5A21D6CACA33E65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A850E3A2938778E4F8E6601 /* Pods_wallhavenios.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94A6984C23D09DFD005764EE /* Build configuration list for PBXNativeTarget "wallhavenios" */;
 			buildPhases = (
+				E6EB670573198B57A42867D4 /* [CP] Check Pods Manifest.lock */,
 				94A6983423D09DFD005764EE /* Sources */,
 				94A6983523D09DFD005764EE /* Frameworks */,
 				94A6983623D09DFD005764EE /* Resources */,
+				E01C445A8508F9ADE660E55C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +163,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E01C445A8508F9ADE660E55C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wallhavenios/Pods-wallhavenios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wallhavenios/Pods-wallhavenios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wallhavenios/Pods-wallhavenios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EB670573198B57A42867D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wallhavenios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94A6983423D09DFD005764EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +212,7 @@
 			files = (
 				94A6984023D09DFD005764EE /* ViewController.swift in Sources */,
 				94A6983C23D09DFD005764EE /* AppDelegate.swift in Sources */,
+				94A6985023D0A85C005764EE /* APIRequest.swift in Sources */,
 				94A6983E23D09DFD005764EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +355,7 @@
 		};
 		94A6984D23D09DFD005764EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8071627855666A4DFC415B2B /* Pods-wallhavenios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		94A6984E23D09DFD005764EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A1F2E2C9A6FFEDA4D60277 /* Pods-wallhavenios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
