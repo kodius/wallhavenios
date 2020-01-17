@@ -35,4 +35,6 @@ public func WallhavenSearchRequest() -> DataRequest {
             print("kurac")
         }
     }
+    
+    return images
 }

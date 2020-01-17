@@ -12,11 +12,13 @@ private let reuseIdentifier = "Cell"
 
 class CollectionViewController: UICollectionViewController {
 
+    @IBOutlet weak var testImagePreview: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("kurchina")
-        WallhavenSearchRequest()
-
+        let images = WallhavenSearchRequest()
+        testImagePreview.image = images[0]["path"]
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
