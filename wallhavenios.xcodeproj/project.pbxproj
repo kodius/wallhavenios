@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5367799C44CD8E1E27EB2948 /* Pods_wallhavenios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A850E3A2938778E4F8E6601 /* Pods_wallhavenios.framework */; };
 		94A6983C23D09DFD005764EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6983B23D09DFD005764EE /* AppDelegate.swift */; };
 		94A6983E23D09DFD005764EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6983D23D09DFD005764EE /* SceneDelegate.swift */; };
-		94A6984023D09DFD005764EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6983F23D09DFD005764EE /* ViewController.swift */; };
 		94A6984323D09DFD005764EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A6984123D09DFD005764EE /* Main.storyboard */; };
 		94A6984523D09DFD005764EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A6984423D09DFD005764EE /* Assets.xcassets */; };
 		94A6984823D09DFD005764EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A6984623D09DFD005764EE /* LaunchScreen.storyboard */; };
 		94A6985023D0A85C005764EE /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6984F23D0A85C005764EE /* APIRequest.swift */; };
+		D44241CB23D1D21D007808E0 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44241CA23D1D21D007808E0 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +24,12 @@
 		94A6983823D09DFD005764EE /* wallhavenios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wallhavenios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A6983B23D09DFD005764EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A6983D23D09DFD005764EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		94A6983F23D09DFD005764EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94A6984223D09DFD005764EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94A6984423D09DFD005764EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A6984723D09DFD005764EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A6984923D09DFD005764EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94A6984F23D0A85C005764EE /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		D44241CA23D1D21D007808E0 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,6 @@
 				8071627855666A4DFC415B2B /* Pods-wallhavenios.debug.xcconfig */,
 				14A1F2E2C9A6FFEDA4D60277 /* Pods-wallhavenios.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,8 +76,8 @@
 			children = (
 				94A6983B23D09DFD005764EE /* AppDelegate.swift */,
 				94A6983D23D09DFD005764EE /* SceneDelegate.swift */,
-				94A6983F23D09DFD005764EE /* ViewController.swift */,
 				94A6984123D09DFD005764EE /* Main.storyboard */,
+				D44241CA23D1D21D007808E0 /* CollectionViewController.swift */,
 				94A6984423D09DFD005764EE /* Assets.xcassets */,
 				94A6984623D09DFD005764EE /* LaunchScreen.storyboard */,
 				94A6984923D09DFD005764EE /* Info.plist */,
@@ -210,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A6984023D09DFD005764EE /* ViewController.swift in Sources */,
+				D44241CB23D1D21D007808E0 /* CollectionViewController.swift in Sources */,
 				94A6983C23D09DFD005764EE /* AppDelegate.swift in Sources */,
 				94A6985023D0A85C005764EE /* APIRequest.swift in Sources */,
 				94A6983E23D09DFD005764EE /* SceneDelegate.swift in Sources */,
